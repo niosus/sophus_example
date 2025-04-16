@@ -16,6 +16,11 @@ This will automatically download `fmt` and `Sophus` libraries and build everythi
 
 ```cmd
 ./build/sophus_example/example
+SE3 matrix:
+1 0 0 1
+0 1 0 2
+0 0 1 3
+0 0 0 1
 ```
 
 This should print an SE(3) transformation matrix.
